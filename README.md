@@ -1,4 +1,5 @@
 > pip install ipython
+
 > pip install djangorestframework
 
 > mkdir templates
