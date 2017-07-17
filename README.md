@@ -18,6 +18,7 @@
     INSTALLED_APPS = [
         ...
         'trips',
+	'rest_framework',
     ]
     
     LOGIN_REDIRECT_URL = '/'
@@ -26,7 +27,7 @@
 > python manage.py makemigrations<br>
 > python manage.py migrate<br>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/models.py">edit /SimpleDjango/trips/models.py</a>
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/models.py">edit /SimpleDjango/trips/models.py</a>
 
     from django.db import models
     
@@ -43,9 +44,7 @@
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/PostSerializer.py">edit SimpleDjango/trips/PostSerializer.py</a>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/urls.py">edit SimpleDjango/trips/urls.py</a>
-		
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
    
     admin.site.register(Post)
 
@@ -73,6 +72,8 @@
 > posts.delete()<br>
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/views.py">edit SimpleDjango/trips/views.py</a>
+
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/urls.py">edit SimpleDjango/trips/urls.py</a>
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/urls.py">edit SimpleDjango/urls.py</a>
 
