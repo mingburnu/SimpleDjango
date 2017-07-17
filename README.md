@@ -25,9 +25,6 @@
     LOGIN_REDIRECT_URL = '/'
 
 
-> python manage.py makemigrations<br>
-> python manage.py migrate<br>
-
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/models.py">edit /SimpleDjango/trips/models.py</a>
 
     from django.db import models
@@ -48,6 +45,10 @@
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
    
     admin.site.register(Post)
+
+
+> python manage.py makemigrations<br>
+> python manage.py migrate<br>
 
 > python manage.py createsuperuser
 
