@@ -18,7 +18,7 @@
     INSTALLED_APPS = [
         ...
         'trips',
-	'rest_framework',
+	    'rest_framework',
     ]
     
     LOGIN_REDIRECT_URL = '/'
