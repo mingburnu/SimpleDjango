@@ -41,6 +41,7 @@
         return self.title
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
+
    
     admin.site.register(Post)
 
