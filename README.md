@@ -1,5 +1,5 @@
-# SimpleDjango
 > pip install ipython
+> pip install djangorestframework
 
 > mkdir templates
 
@@ -26,7 +26,7 @@
 > python manage.py makemigrations<br>
 > python manage.py migrate<br>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/models.py">edit /SimpleDjango/trips/models.py</a>
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/models.py">edit /SimpleDjango/trips/models.py</a>
 
     from django.db import models
     
@@ -40,8 +40,12 @@
     def __str__(self):
         return self.title
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
 
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/PostSerializer.py">edit SimpleDjango/trips/PostSerializer.py</a>
+
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/urls.py">edit SimpleDjango/trips/urls.py</a>
+		
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
    
     admin.site.register(Post)
 
@@ -68,10 +72,11 @@
 > posts.update(location='象山親山步道')<br>
 > posts.delete()<br>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/views.py">edit SimpleDjango/trips/views.py</a>
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/trips/views.py">edit SimpleDjango/trips/views.py</a>
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/urls.py">edit SimpleDjango/urls.py</a>
 
-<a href="https://github.com/mingburnu/SimpleDjango/tree/master/templates">edit SimpleDjango/templates/xxxx.html</a>
+<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/templates">edit SimpleDjango/templates/xxxx.html</a>
 
 <a href="http://127.0.0.1:8000">127.0.0.1:8000</a>
+<a href="http://127.0.0.1:8000/api">127.0.0.1:8000/api</a>
