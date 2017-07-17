@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import login, logout
@@ -27,4 +27,5 @@ urlpatterns = [
     url(r'^logout/$', logout, {'next_page': '/login'}, name='logout'),
     url(r'^$', login_required(home, login_url='login'), name='home'),
     url(r'^post/(?P<pk>\d+)/$', login_required(post_detail, login_url='login'), name='post_detail'),
+    url(r'^api/', include('trips.urls')),
 ]

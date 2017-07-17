@@ -1,7 +1,9 @@
 from datetime import datetime
 
 from django.shortcuts import render
+from rest_framework import viewsets
 
+from trips.PostSerializer import PostSerializer
 from trips.models import Post
 
 
@@ -21,3 +23,7 @@ def home(request):
 def post_detail(request, pk):
     post = Post.objects.get(pk=pk)
     return render(request, 'post.html', {'post': post})
+
+class PostSet(viewsets.ModelViewSet):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
