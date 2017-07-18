@@ -1,3 +1,5 @@
+# SimpleDjango
+
 > pip install ipython
 
 > pip install djangorestframework
