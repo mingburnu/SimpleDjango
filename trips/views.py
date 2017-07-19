@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from django.shortcuts import render
-from rest_framework import viewsets
+from rest_framework import viewsets, permissions
 
 from trips.PostSerializer import PostSerializer
 from trips.models import Post
@@ -26,5 +26,6 @@ def post_detail(request, pk):
 
 
 class PostSet(viewsets.ModelViewSet):
+    permission_classes = (permissions.IsAdminUser,)
     queryset = Post.objects.all()
     serializer_class = PostSerializer

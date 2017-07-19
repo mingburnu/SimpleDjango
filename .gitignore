@@ -1,3 +1,2 @@
-/trips/__pycache__
-/SimpleDjango/__pycache__
-/trips/migrations/__pycache__
+__pycache__
+.idea
