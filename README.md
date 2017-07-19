@@ -67,7 +67,7 @@
 > Post.objects.filter(id=3).update(photo='http://www.yolks.ca/wp-content/uploads/2015/03/slider2.jpg')<br>
 > Post.objects.filter(id=4).update(photo='https://i.ytimg.com/vi/B4y9BvPIyr0/maxresdefault.jpg')<br>
 > Post.objects.get(pk=1)<br>
-> Post.objects.filter(location__contains='台北')><br> 
+> Post.objects.filter(location__contains='台北')<br> 
 > posts = Post.objects.filter(title__contains='Trip')<br>
 > posts<br>
 > posts[0].location<br>
