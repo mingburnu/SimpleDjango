@@ -89,5 +89,5 @@
 #### REFERECE
 
 <a href="https://www.gitbook.com/book/djangogirlstaipei/django-girls-taipei-tutorial/details">Django Girls 學習指南</a><br>
-<a href="https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html">How to Use Django's Built-in Login System</a>
+<a href="https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html">How to Use Django's Built-in Login System</a><br>
 <a href="http://getalusmind.blogspot.tw/2016/05/django-rest-framework-restful-api.html">django-rest-framework 十分鐘架一個簡單的 restful api</a>
