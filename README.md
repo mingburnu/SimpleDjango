@@ -81,7 +81,7 @@
 
 <a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/urls.py">edit SimpleDjango/urls.py</a>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/templates">edit SimpleDjango/templates/xxxx.html</a>
+<a href="https://github.com/mingburnu/SimpleDjango/tree/master/templates">edit SimpleDjango/templates/xxxx.html</a>
 
 <a href="http://127.0.0.1:8000">127.0.0.1:8000</a><br>
 <a href="http://127.0.0.1:8000/api">127.0.0.1:8000/api</a>
