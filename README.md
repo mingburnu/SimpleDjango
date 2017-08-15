@@ -8,7 +8,7 @@
 
 > python manage.py startapp trips
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/settings.py">edit /SimpleDjango/settings.py</a>
+[edit /SimpleDjango/settings.py](https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/settings.py)
 
     TEMPLATES = [
         {
@@ -27,7 +27,7 @@
     LOGIN_REDIRECT_URL = '/'
 
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/models.py">edit /SimpleDjango/trips/models.py</a>
+[edit /SimpleDjango/trips/models.py](https://github.com/mingburnu/SimpleDjango/blob/master/trips/models.py)
 
     from django.db import models
     
@@ -42,9 +42,9 @@
         return self.title
 
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/PostSerializer.py">edit SimpleDjango/trips/PostSerializer.py</a>
+[edit SimpleDjango/trips/PostSerializer.py](https://github.com/mingburnu/SimpleDjango/blob/master/trips/PostSerializer.py)
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/admin.py">edit /SimpleDjango/trips/admin.py</a>
+[edit /SimpleDjango/trips/admin.py](https://github.com/mingburnu/SimpleDjango/blob/master/trips/admin.py)
    
     admin.site.register(Post)
 
@@ -75,19 +75,19 @@
 > posts.update(location='象山親山步道')<br>
 > posts.delete()<br>
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/views.py">edit SimpleDjango/trips/views.py</a>
+[edit SimpleDjango/trips/views.py](https://github.com/mingburnu/SimpleDjango/blob/master/trips/views.py)
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/trips/urls.py">edit SimpleDjango/trips/urls.py</a>
+[edit SimpleDjango/trips/urls.py](https://github.com/mingburnu/SimpleDjango/blob/master/trips/urls.py)
 
-<a href="https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/urls.py">edit SimpleDjango/urls.py</a>
+[edit SimpleDjango/urls.py](https://github.com/mingburnu/SimpleDjango/blob/master/SimpleDjango/urls.py)
 
-<a href="https://github.com/mingburnu/SimpleDjango/tree/master/templates">edit SimpleDjango/templates/xxxx.html</a>
+[edit SimpleDjango/templates/xxxx.html](https://github.com/mingburnu/SimpleDjango/tree/master/templates)
 
-<a href="http://127.0.0.1:8000">127.0.0.1:8000</a><br>
-<a href="http://127.0.0.1:8000/api">127.0.0.1:8000/api</a>
+[127.0.0.1:8000](http://127.0.0.1:8000)
+[127.0.0.1:8000/api](http://127.0.0.1:8000/api)
 
 ### REFERECE
-<a href="https://www.gitbook.com/book/djangogirlstaipei/django-girls-taipei-tutorial/details">Django Girls 學習指南</a><br>
-<a href="https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html">How to Use Django's Built-in Login System</a><br>
-<a href="http://getalusmind.blogspot.tw/2016/05/django-rest-framework-restful-api.html">django-rest-framework 十分鐘架一個簡單的 restful api</a><br>
-<a href="https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/">DJANGO REST FRAMEWORK – SETTING PERMISSIONS</a><br>
+[Django Girls 學習指南](https://www.gitbook.com/book/djangogirlstaipei/django-girls-taipei-tutorial/details)
+[How to Use Django's Built-in Login System](https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html)
+[django-rest-framework 十分鐘架一個簡單的 restful api](http://getalusmind.blogspot.tw/2016/05/django-rest-framework-restful-api.html)
+[DJANGO REST FRAMEWORK – SETTING PERMISSIONS](https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/)
