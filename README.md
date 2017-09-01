@@ -87,7 +87,7 @@
 [127.0.0.1:8000/api](http://127.0.0.1:8000/api)
 
 ### REFERECE
-[Django Girls 學習指南](https://www.gitbook.com/book/djangogirlstaipei/django-girls-taipei-tutorial/details)
-[How to Use Django's Built-in Login System](https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html)
-[django-rest-framework 十分鐘架一個簡單的 restful api](http://getalusmind.blogspot.tw/2016/05/django-rest-framework-restful-api.html)
+[Django Girls 學習指南](https://www.gitbook.com/book/djangogirlstaipei/django-girls-taipei-tutorial/details)<br>
+[How to Use Django's Built-in Login System](https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html)<br>
+[django-rest-framework 十分鐘架一個簡單的 restful api](http://getalusmind.blogspot.tw/2016/05/django-rest-framework-restful-api.html)<br>
 [DJANGO REST FRAMEWORK – SETTING PERMISSIONS](https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/)
