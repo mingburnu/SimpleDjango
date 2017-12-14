@@ -83,7 +83,7 @@
 
 [edit SimpleDjango/templates/xxxx.html](https://github.com/mingburnu/SimpleDjango/tree/master/templates)
 
-[127.0.0.1:8000](http://127.0.0.1:8000)
+[127.0.0.1:8000](http://127.0.0.1:8000)<br>
 [127.0.0.1:8000/api](http://127.0.0.1:8000/api)
 
 ### REFERECE
